@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<Pane fx:id="background" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="463.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Rectangle fx:id="header" arcHeight="5.0" arcWidth="10.0" fill="DODGERBLUE" height="56.0" layoutX="-1.0" stroke="#328ae7" strokeType="INSIDE" width="800.0" />
+      <Label layoutX="22.0" layoutY="20.0" text="Local pharmacy" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Hyperlink layoutX="456.0" layoutY="17.0" />
+      <Rectangle fx:id="footer" arcHeight="5.0" arcWidth="5.0" fill="#333638" height="67.0" layoutX="-1.0" layoutY="396.0" stroke="#403c3c" strokeType="INSIDE" width="800.0" />
+      <Label fx:id="footerText" layoutX="287.0" layoutY="413.0" text="2023 Local pharmacy. All rights reserved." textFill="WHITE" />
+      <Button fx:id="sales" layoutX="709.0" layoutY="18.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="62.0" text="sales" />
+      <Hyperlink fx:id="add" layoutX="327.0" layoutY="19.0" text="Add drug" textFill="WHITE" />
+      <Hyperlink fx:id="view" layoutX="412.0" layoutY="19.0" text="View drug" textFill="WHITE" />
+      <Label layoutX="306.0" layoutY="219.0" />
+      <AnchorPane layoutX="295.0" layoutY="211.0" />
+      <ImageView fx:id="imagev" fitHeight="206.0" fitWidth="800.0" layoutY="56.0">
+         <image>
+            <Image url="https://www.onu.edu/sites/default/files/2019-11/20180103-healthwise-pharmacy-008.jpg" />
+         </image>
+      </ImageView>
+      <TextField layoutX="560.0" layoutY="159.0" prefHeight="39.0" prefWidth="149.0" />
+      <TextField layoutX="705.0" layoutY="159.0" prefHeight="39.0" prefWidth="62.0" text="search" />
+      <Label layoutX="613.0" layoutY="112.0" text="Search drug" textFill="#7e7272">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="aboutUs" layoutX="327.0" layoutY="280.0" text="About Us" />
+      <Label layoutX="51.0" layoutY="306.0" />
+      <Label fx:id="aboutText1" layoutX="88.0" layoutY="306.0" text="At our drug store, we are dedicated to providing top-quality healthcare products and services to our valued customers." />
+      <Label fx:id="aboutUsText2" layoutX="86.0" layoutY="323.0" text=" As a leading destination for all your health and wellness needs, we pride ourselves on delivering exceptional  service " />
+      <Label fx:id="aboutUsText3" layoutX="88.0" layoutY="340.0" text="and a wide range of products to promote your well-being." />
+      <Pane fx:id="imageView" layoutX="14.0" layoutY="223.0" prefHeight="200.0" prefWidth="200.0" />
+   </children>
+</Pane>
